@@ -3874,9 +3874,6 @@ body {
  .sidebar {
   float:left;
   width:calc(200px - 1em);
-  opacity:0.75;
-  -webkit-transition:opacity 0.2s ease-in-out;
-  transition:opacity 0.2s ease-in-out
  }
  .sidebar:hover {
   opacity:1
