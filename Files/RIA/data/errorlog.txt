@@ -14,3 +14,11 @@ ERROR: (Node not found: "View/CanvasLayer/zoom_shader/Viewport" (relative to "")
    at: get_node (scene/main/node.cpp:1325) - Condition "!node" is true. Returned: nullptr
 ERROR: ViewportTexture: Path to node is invalid.
    at: setup_local_to_scene (scene/main/viewport.cpp:69) - Condition "!vpn" is true.
+ERROR: In Object of type 'Node2D': Attempt to connect nonexistent signal 'savebox' to method 'Label.refresh'.
+   at: connect (core/object.cpp:1462) - Condition "!signal_is_valid" is true. Returned: ERR_INVALID_PARAMETER
+ERROR: In Object of type 'Node2D': Attempt to connect nonexistent signal 'pagechange' to method 'Label.page'.
+   at: connect (core/object.cpp:1462) - Condition "!signal_is_valid" is true. Returned: ERR_INVALID_PARAMETER
+ERROR: In Object of type 'Node2D': Attempt to connect nonexistent signal 'togglezoom' to method 'ColorRect.toggle'.
+   at: connect (core/object.cpp:1462) - Condition "!signal_is_valid" is true. Returned: ERR_INVALID_PARAMETER
+ERROR: (Node not found: "../Settings" (relative to "/root/Main/View/CanvasLayer/Center/ImageLoad").)
+   at: get_node (scene/main/node.cpp:1325) - Condition "!node" is true. Returned: nullptr
