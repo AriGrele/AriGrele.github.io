@@ -3,7 +3,7 @@ extends Node2D
 var info
 
 func _ready():
-	info=load_data('res://data/info.cfg')
+	info=load_data('user://data/info.cfg')
 
 func load_data(path):
 	var data={}

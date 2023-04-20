@@ -457,10 +457,10 @@ rect_min_size = Vector2( 575, 900 )
 rect_scale = Vector2( 0.5, 0.5 )
 
 [node name="colormanager" type="ColorPicker" parent="View/CanvasLayer/Center/Settings/margin/ColorPanel/Container"]
-margin_left = 246.0
-margin_top = 244.0
-margin_right = 822.0
-margin_bottom = 1145.0
+margin_left = 254.0
+margin_top = 252.0
+margin_right = 830.0
+margin_bottom = 1153.0
 rect_min_size = Vector2( 575, 900 )
 
 [node name="shape" type="Label" parent="View/CanvasLayer/Center/Settings"]

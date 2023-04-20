@@ -1,6 +1,6 @@
 extends Node2D
 
-var base='res://assets/default image.png'
+var base='user://assets/default image.png'
 var imagename='No image loaded'
 var img_folder=''
 var loadstate=0

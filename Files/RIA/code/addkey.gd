@@ -22,7 +22,7 @@ func _ready():
 	items=spawn(keys,comments)
 
 func newnode(k,d,com):
-	var controlpicker=load('res://code/controlpicker.tscn').instance()
+	var controlpicker=load('user://code/controlpicker.tscn').instance()
 	controlpicker.get_node('.').set('data',[k,d[k]])
 	controlpicker.get_node('.').set('comments',com)
 	controlpicker.get_node('.').set_scale(Vector2(.5,.5))

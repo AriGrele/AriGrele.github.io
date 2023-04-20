@@ -12,7 +12,7 @@ signal reset
 var settings_path
 
 func _ready():
-	var defaults=load_data('res://data/defaults.cfg')
+	var defaults=load_data('user://data/defaults.cfg')
 	settings_path=defaults['Settings']['path']
 	settings=load_data(settings_path)
 	var directory = Directory.new()
@@ -34,7 +34,7 @@ func load_data(path):
 	var config=ConfigFile.new()
 
 	var err=config.load(path)
-	if err != OK:return(load_data('res://data/defaults.cfg'))
+	if err != OK:return(load_data('user://data/defaults.cfg'))
 	
 	for item in config.get_sections():
 		data[item]={}
@@ -50,7 +50,7 @@ func save_data(data,path):
 	config.save(path)
 
 func reset_data():
-	settings=load_data('res://data/defaults.cfg')
+	settings=load_data('user://data/defaults.cfg')
 	save_data(settings,settings_path)
 	emit_signal('reset')
 
@@ -82,9 +82,9 @@ func _on_reset_pressed():reset_data()
 func _on_settingsload_file_selected(path):
 	settings_path=path
 	
-	var defaults=load_data('res://data/defaults.cfg')
+	var defaults=load_data('user://data/defaults.cfg')
 	defaults['Settings']['path']=settings_path
-	save_data(defaults,'res://data/defaults.cfg')
+	save_data(defaults,'user://data/defaults.cfg')
 	
 	settings=load_data(settings_path)
 	save_data(settings,settings_path)

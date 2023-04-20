@@ -53,7 +53,7 @@ func save():
 	emit_signal('output')
 
 func newnode(d,com):
-	var newkey=load('res://code/keys.tscn').instance()
+	var newkey=load('user://code/keys.tscn').instance()
 	
 	newkey.connect('update',self,'save')
 	newkey.connect('remove',self,'remove')

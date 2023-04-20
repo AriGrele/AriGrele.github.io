@@ -73,7 +73,7 @@ func load_file(file):
 				else:
 					output[k][int(item)]=unbox(data[k][item])
 		return(output)
-	else:return(load_file('res://data/annotations.json'))
+	else:return(load_file('user://data/annotations.json'))
 	
 func save_file(file,data):
 	var output={}
@@ -193,7 +193,7 @@ func change_shape(type):
 
 func _ready():
 	font=DynamicFont.new()
-	font.font_data=load("res://assets/AlegreyaSans-Regular.ttf")
+	font.font_data=load("user://assets/AlegreyaSans-Regular.ttf")
 	font.size=15
 
 	alldata={}

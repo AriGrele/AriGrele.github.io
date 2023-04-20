@@ -27,8 +27,8 @@ func _ready():
 func toggle():
 	if self.text=='Tutorial':
 		self.set_text('Exit tutorial')
-		i='res://tutorial/assets/'
-		a='res://tutorial/annotations.json'
+		i='user://tutorial/assets/'
+		a='user://tutorial/annotations.json'
 
 	else:
 		self.set_text('Tutorial')
