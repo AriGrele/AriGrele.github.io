@@ -87,7 +87,7 @@ span{
 	vertical-align: middle;
 	margin-left: 0px;
 	width:150px;
-	height:190px;
+	height: auto;
 	z-index: 2;
 	box-shadow: 0px 8px 16px 0px #222222}
 
@@ -275,6 +275,8 @@ span{
 		margin: 0 0px;}
 	.header nav{
 		margin: 0 0px;}
+	.header a{
+		margin: 0 15px;}
 
 	.main{
 		overflow: hidden;
