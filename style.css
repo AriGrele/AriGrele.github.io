@@ -25,14 +25,16 @@ span{
 	overflow: hidden;}
 
 .splash img{
-	height: 300px;
+	height: 100vh;
 	width: 100%;
-	object-fit: cover;}
+	object-fit: cover;
+	position: fixed;}
 
 .header{
-	position: sticky;
-	top: 0px;
-	z-index: 2;}
+	position: fixed;
+	z-index: 2;
+	right: 0px;
+	left: 0px;}
 
 .header div{
 	position: sticky;
@@ -54,6 +56,9 @@ span{
 	margin-left: 100px;
 	margin-right: 100px;
 	border-bottom: 1px solid #cbcbcb;}
+
+.header img{
+	position: fixed;}
 
 .header ul{
 	margin-left: auto;
@@ -116,6 +121,22 @@ span{
 	margin-left: 100px;
 	margin-right: 100px;
 	flex-direction: row;}
+
+.main.head{
+	background: linear-gradient(to bottom, #00000000 0%, #000000b8 100%);
+	margin: 0px 0px;
+	height: 100vh;
+	position: relative;}
+
+.main.head table{
+	height: 100%;
+	width: 100%;
+	text-align: center;}
+
+.main.head h1{
+	color: white;
+	font-size: 2.25rem;
+	margin-bottom: 100px;}
 
 .main.sidebar{
 	height: min-content;
@@ -272,8 +293,6 @@ span{
 	text-decoration: none;}
 
 @media screen and (max-width: 1000px){
-	.splash img{
-		height: 200px;}
 	.header{
 		margin: 0 0px;}
 	.header nav{
@@ -291,7 +310,9 @@ span{
 		position: relative;
 		width: 100%;
 		top: 0px;
-		margin-top: 20px;}
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-right: 0px;}
 	.main.sidebar ul{
 		flex-direction: row;
 		justify-content: center;
@@ -335,9 +356,6 @@ span{
 		width: 0px;}
 	.header.dropdown{
 		display: block;}
-	.splash img{
-		height: 0px;}
-
 	.main{
 		margin: 0 8px;}
 	.simplify{

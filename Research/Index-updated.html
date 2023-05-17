@@ -87,9 +87,27 @@
         <article class="main content" itemscope itemtype="https://schema.org/CreativeWork">
           <div>
             <section itemprop="text">
-              <h1 id="c1">Plant mediated insect interactions</h2>
-              <h1 id="c2">The adaptive role of specialized necar chemistry</h2>
-              <h1 id="c3">Using computer vision for automatic insect surveys</h2>
+              <h1 id="c1">Plant mediated insect interactions</h1>
+		  <ul style="list-style-type: none">
+		    <li>What is the current state of knowledge of the ecological roles of specialized nectar metabolites in-vivo? How do foliar and floral chemical traits alter insect behavior, and vice versa, across plant and insect taxa? How does plant chemistry mediate interactions between herbivores and pollinators?</li>
+		    <p></p>
+		    <li>To maximize their fitness, plants must reach an equilibrium between energy allocated to defense against herbivores and energy devoted to the attraction of pollinators. As plants respond adaptively to visiting insects, such as by increasing defensive compounds in their leaves after herbivore damage or decreasing volatile attractants after pollination, the chemical traits of foliar and floral tissues are constantly being tuned to the specific interactions a plant experiences. While folivores and pollinators are directly impacted, and directly impact, the chemistry of the tissues they interact with, they are also capable of altering plant chemistry in other tissues, and may indirectly alter interactions between plants and other guilds of insects. Additionally, many phytochemicals used to defend against herbivores and attract pollinators have shared biosynthetic pathways. The induction or down-stepping of a pathway in response to insect activity in one tissue can alter the regulation of the same pathway in other tissues, altering the chemical profiles involved in plant-insect interactions. Although there exist a considerable number of studies investigating how phytochemistry mediates plant-insect interactions, existing meta-analyses focus on in-vitro studies of single phytochemicals on insect behavior, or use extremely broad chemical classes, such as comparing primary metabolites to specialized metabolites.</li>
+		  </ul>
+              <h1 id="c2">The adaptive role of specialized necar chemistry</h1>
+		  <ul style="list-style-type: none">
+		    <li>How does constitutive and induced milkweed nectar chemistry alter pollinator behavior and plant fitness?</li>
+		    <p></p>
+		    <li>Although pollination is a multimodal process, with insects making use of visual, olfactory, tactile, and gustatory cues to locate flowers, nectar a major interface between pollinators and plants when on the flower. As such, nectar is an interface through which plants can manipulate insect behavior. Nectar is a high energy reward, and many non-pollinators have developed strategies to consume nectar while bypassing plant structures that deposit pollen. Additionally, many insects pollinate plants with low efficiency, consuming a disproportionate amount of nectar for the amount of pollen they transfer. Chemical means of filtering out low quality pollinators and larcenists, or improving the quality of visiting pollinators, would greatly improve a plant's ability to reproduce. As phytochemical profiles can be altered by plant responses to herbivory, nectar also has the potential to act as a chemical mediator of herbivore-pollinator interactions. The nectar robber hypothesis suggests that nectar chemistry will be directly linked to the identity of visiting pollinators, and that specific compounds present in nectar will be negatively or positively associated with insect taxa in relation to their efficiency as pollinators. The pollinator quality hypothesis suggests that nectar chemistry will drive pollinator behaviors that impact pollination efficiency, such as visitation rate and foraging time</li>
+		  </ul>
+              <h1 id="c3">Using computer vision for automatic insect surveys</h1>
+		  <ul style="list-style-type: none">
+		    <li></li>
+		    <p></p>
+		    <li>Field based studies of pollinator behavior are frequently limited in scope. The amount of labor required to observe flowers for extended time periods means that many pollinator studies lack the data to accurately estimate pollinator visitation rates and foraging times.
+While video based methods for collecting visitation data can avoid some of these issues, considerable storage space and post-processing are required to extract usable data from videos.
+To address these problems, I present BugNet, a machine learning algorithm capable of automatically recording and identifying insect pollinators. BugNet uses a You Only Look Once (YOLO) computer vision model to record and crop insects from video data in real time. These cropped images are then identified using a hierarchical classifier capable of determining the probability that the insect is in any given order, family, genus, and species. pollinators are tracked across multiple frames of video to improve classification accuracy, and to provide data on the period of time spent visiting a flower.
+Trained on a dataset of 240 species of North American insects consisting of 330,000 images scraped from Inaturalist, BugNet is capable of cropping 98% of insects, and can identify insects to species with 90% precision. Identifications to genus exceed 95% precision. BugNet allows for the collection of pollinator visitation data in the field with high temporal and taxonomic resolution, and can be easily modified studies of insect behavior in the lab.</li>
+		  </ul>
               <h1 id="p1">Publications</h2>
               <p style="font-size:14px;"><b>*</b> Indicates preprints</p>
               <ul style="list-style-type: none">
