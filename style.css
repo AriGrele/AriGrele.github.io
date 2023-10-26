@@ -37,10 +37,9 @@ span{
 
 .splash p{
 	position: relative;
-	top: -75px;
+	top: -150px;
 	color: white;
   margin: auto;
-  width: 50%;
 font-size: 50px;
 text-align: center;}
 
@@ -61,10 +60,10 @@ text-align: center;}
 
 .splashshort p{
 	position: relative;
-	top: -75px;
+	top: -150px;
 	color: white;
   margin: auto;
-  width: 50%;
+
 font-size: 50px;
 text-align: center;}
 

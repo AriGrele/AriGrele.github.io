@@ -29,17 +29,15 @@
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
 
     <link rel   = "stylesheet" href = "../style.css">
-    <link rel   = "preload"    href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
-    <link rel   = "preload"    href = "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"   as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
+    <link rel   = "preload"  href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
+    <link rel   = "preload"  href = "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"   as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
     <noscript>
       <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
       <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     </noscript>
   </head>
   <body>
-    <div class="splash">
-      <img src="../Assets/splash2.JPG" alt="Header image" itemprop="image" style="object-position: 40% 40%; width: 120%">
-    </div>
+    
     <div class="header">
       <div>
         <nav>
@@ -57,14 +55,19 @@
                 <li><a href = "/">About</a></li>
                 <li><a href = "/Research/Index">Research</a></li>
                 <li><a href = "/Projects/Index">Projects</a></li>
-		<li><a href = "/Software/Index">Software</a></li>
+	        <li><a href = "/Software/Index">Software</a></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
     </div>
-    <div>
+    <div class="splashshort">
+      <div class="head"></div>
+      <img src="../Assets/splash2.JPG" alt="Header image" itemprop="image" style="object-position: 40% 40%; width: 120%;">
+	<p>Current research projects</p>
+    </div>
+    <div style="position: relative; background-color: white;">
       <div class="main">
         <div class="main sidebar">
           <div>
@@ -131,6 +134,7 @@ Trained on a dataset of 240 species of North American insects consisting of 330,
         </article>
       </div>
     </div>
+</div>
     <div class="footer">
       <footer>
         <div class="footer links">
