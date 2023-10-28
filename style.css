@@ -571,12 +571,26 @@ span{
 		margin:auto;}
 	.holder{
 		padding-right:50px;
-		padding-left:50px;}}
+		padding-left:50px;}
+	.sub_image img{
+		width:300px;
+		height:300px;}}
 
 @media screen and (max-width: 400px){
+	body{
+  		overflow-x: hidden;}
+	.main.sidebar a{
+		font-size: 11px;}
+	.main.sidebar.links{
+		font-size: 11px;}
+	.footer{
+		font-size: 11px;}
+	.avatar img{
+		width:90vw;
+		height:90vw;}
 	.sub_image img{
-		width:200px;
-		height:200px;}
+		width:90vw;
+		height:90vw;}
 	.side_image img{
 		width:90vw;
 		height:90vw;}
