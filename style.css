@@ -26,7 +26,7 @@ span{
 	height: 100vh;
 	width: 100%;
 	object-fit: cover;
-    	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.15)));}
+    	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.25)));}
 
 .splash p{
 	position: relative;
@@ -49,7 +49,7 @@ span{
 	width: 100%;
 	object-fit: cover;
     	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
-    	from(rgba(0,0,0,1)), to(rgba(0,0,0,.25)));}
+    	from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));}
 
 .splashshort p{
 	position: relative;
