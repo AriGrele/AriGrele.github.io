@@ -32,9 +32,9 @@ span{
 	position: relative;
 	top: -150px;
 	color: white;
-  margin: auto;
-font-size: 50px;
-text-align: center;}
+  	margin: auto;
+	font-size: 50px;
+	text-align: center;}
 
 .splashshort{
 	position:sticky;
@@ -44,21 +44,20 @@ text-align: center;}
 	height:66vh;}
 
 .splashshort img{
-    transition: 0.5s;
+    	transition: 0.5s;
 	height: 66vh;
 	width: 100%;
 	object-fit: cover;
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
-    from(rgba(0,0,0,1)), to(rgba(0,0,0,.25)));}
+    	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+    	from(rgba(0,0,0,1)), to(rgba(0,0,0,.25)));}
 
 .splashshort p{
 	position: relative;
 	top: -150px;
 	color: white;
-  margin: auto;
-
-font-size: 50px;
-text-align: center;}
+  	margin: auto;
+	font-size: 50px;
+	text-align: center;}
 
 .header{
 	position: fixed;
