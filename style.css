@@ -456,6 +456,9 @@ figcaption{
 	color: #333;
 	text-decoration: none;}
 
+.downloads{
+	display:flex;}
+
 @media screen and (max-width: 1000px){
 	.header{
 		margin: 0 0px;}
@@ -471,6 +474,11 @@ figcaption{
 		flex-direction: column;}
 
 	.holder{
+		overflow: hidden;
+		font-size: 16px;
+		flex-direction: column;}
+
+	.downloads{
 		overflow: hidden;
 		font-size: 16px;
 		flex-direction: column;}
