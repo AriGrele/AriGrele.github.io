@@ -603,6 +603,8 @@ figcaption{
 	.side_image img{
 		width:90vw;
 		height:90vw;}
+	.splashshort p{
+		font-size:40px;}
 	.holder{
 		padding-right:5px;
 		padding-left:5px;}}
