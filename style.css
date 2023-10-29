@@ -352,7 +352,13 @@ span{
     margin-left: auto;
     margin-right: auto;}
 
-.side_image{}
+figure{
+	margin-left:0px;
+	width:400px;
+	float: right;}
+
+figcaption{
+	margin-bottom:15px;}
 
 .side_image img{
 	width: 400px;
@@ -362,7 +368,6 @@ span{
 	display: block;
     	margin-left:20px;
    	margin-right:20px;
-	float: right;
 	margin-bottom:10px;}
 
 .partial-l{
@@ -566,8 +571,10 @@ span{
 		margin: 0px 0px;}
 	.main.sidebar.links li{
 		margin: 0 1px;}
-	.side_image img{
+	figure{
 		float:none;
+		margin:auto;}
+	.side_image img{
 		margin:auto;}
 	.holder{
 		padding-right:50px;
@@ -591,6 +598,8 @@ span{
 	.sub_image img{
 		width:90vw;
 		height:90vw;}
+	figure{
+		width:90vw;}
 	.side_image img{
 		width:90vw;
 		height:90vw;}
