@@ -620,32 +620,32 @@ figcaption{
 
 @media (prefers-color-scheme: dark){
 	body{
-		color:#e8eaed;
+		color:#b9babd;
 		background-color:#202124;}
-        .splash p{color:#e8eaed;}
-    	.splashshort p{color:#e8eaed;}
+        .splash p{color:#b9babd;}
+    	.splashshort p{color:#b9babd;}
 	.header div{background-color:#202124;}
 	.header nav{
 		background-color:#202124;
 		border-bottom: 1px solid #3c4043;}
-	.header a{color:#e8eaed;}
-	.header.dropdown{color:#e8eaed;}
+	.header a{color:#b9babd;}
+	.header.dropdown{color:#b9babd;}
 	.header.dropdown.content li{border-bottom: 1px solid #3c4043;}
 	.text.block{border-bottom: 1px solid #3c4043;}
 	.main.sidebar ul{border-bottom: 1px solid #3c4043;}
 	.main.sub_sidebar ul{border-bottom: 1px solid #3c4043;}
-	.main.head h1{color:#e8eaed;}
-	.main.sidebar a{color:#e8eaed;}
-	.main.sidebar.links a{color:#e8eaed;}
-	.main.sub_sidebar a{color:#e8eaed;}
-	.main.sub_sidebar.links a{color:#e8eaed;}
-	.main.content{color:#e8eaed;}
+	.main.head h1{color:#b9babd;}
+	.main.sidebar a{color:#b9babd;}
+	.main.sidebar.links a{color:#b9babd;}
+	.main.sub_sidebar a{color:#b9babd;}
+	.main.sub_sidebar.links a{color:#b9babd;}
+	.main.content{color:#b9babd;}
 	.footer{background-color:#3c4043;}
-	.footer.links a{color:#e8eaed;}
-	.footer.copyright p{color:#e8eaed;}
+	.footer.links a{color:#b9babd;}
+	.footer.copyright p{color:#b9babd;}
 	.surmain{
 		background-color:#202124;
-		color:#e8eaed;}
+		color:#b9babd;}
 
 
 }
