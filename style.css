@@ -620,32 +620,32 @@ figcaption{
 
 @media (prefers-color-scheme: dark){
 	body{
-		color:#b9babd;
+		color:#bababa;
 		background-color:#202124;}
-        .splash p{color:#b9babd;}
-    	.splashshort p{color:#b9babd;}
+        .splash p{color:#bababa;}
+    	.splashshort p{color:#bababa;}
 	.header div{background-color:#202124;}
 	.header nav{
 		background-color:#202124;
 		border-bottom: 1px solid #3c4043;}
-	.header a{color:#b9babd;}
-	.header.dropdown{color:#b9babd;}
+	.header a{color:#bababa;}
+	.header.dropdown{color:#bababa;}
 	.header.dropdown.content li{border-bottom: 1px solid #3c4043;}
 	.text.block{border-bottom: 1px solid #3c4043;}
 	.main.sidebar ul{border-bottom: 1px solid #3c4043;}
 	.main.sub_sidebar ul{border-bottom: 1px solid #3c4043;}
-	.main.head h1{color:#b9babd;}
-	.main.sidebar a{color:#b9babd;}
-	.main.sidebar.links a{color:#b9babd;}
-	.main.sub_sidebar a{color:#b9babd;}
-	.main.sub_sidebar.links a{color:#b9babd;}
-	.main.content{color:#b9babd;}
+	.main.head h1{color:#bababa;}
+	.main.sidebar a{color:#bababa;}
+	.main.sidebar.links a{color:#bababa;}
+	.main.sub_sidebar a{color:#bababa;}
+	.main.sub_sidebar.links a{color:#bababa;}
+	.main.content{color:#bababa;}
 	.footer{background-color:#3c4043;}
-	.footer.links a{color:#b9babd;}
-	.footer.copyright p{color:#b9babd;}
+	.footer.links a{color:#bababa;}
+	.footer.copyright p{color:#bababa;}
 	.surmain{
 		background-color:#202124;
-		color:#b9babd;}
+		color:#bababa;}
 
 
 }
