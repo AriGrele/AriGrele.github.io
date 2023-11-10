@@ -340,8 +340,8 @@ span{
 	border-radius: 50%;
 	overflow: hidden;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;}
+    	margin-left: auto;
+    	margin-right: auto;}
 
 .sub_image img{
 	width: 400px;
@@ -349,8 +349,8 @@ span{
 	border-radius: 50%;
 	overflow: hidden;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;}
+    	margin-left: auto;
+   	margin-right: auto;}
 
 figure{
 	margin-left:0px;
@@ -494,8 +494,7 @@ figcaption{
 	.main.sidebar ul{
 		flex-direction: row;
 		margin-left:0px;
-		justify-content: center;
-		border-bottom: 1px solid #cbcbcb;}
+		justify-content: center;}
 	.main.sidebar h1{
 		text-align:center;}
 	.main.sidebar li{
@@ -509,8 +508,7 @@ figcaption{
 		top: 0px;
 		font-size: 12px;}
 	.main.sidebar.links ul{
-		justify-content: center;
-		border-bottom: 0px solid #cbcbcb;}
+		justify-content: center;}
 	.main.sidebar.links li{
 		margin: 0 10px;}
 	.main.sidebar.links i{
@@ -526,8 +524,7 @@ figcaption{
 		margin-right: 0px;}
 	.main.sub_sidebar ul{
 		flex-direction: row;
-		justify-content: center;
-		border-bottom: 1px solid #cbcbcb;}
+		justify-content: center;}
 	.main.sub_sidebar li{
 		margin: 0 10px;
 		text-align: center;
@@ -539,8 +536,7 @@ figcaption{
 		top: 0px;
 		font-size: 12px;}
 	.main.sub_sidebar.links ul{
-		justify-content: center;
-		border-bottom: 0px solid #cbcbcb;}
+		justify-content: center;}
 	.main.sub_sidebar.links li{
 		margin: 0 10px;}
 
@@ -616,4 +612,41 @@ figcaption{
 	.holder{
 		padding-right:5px;
 		padding-left:5px;}}
+
+
+.surmain{
+	position: relative;
+	background-color: white;}
+
+@media (prefers-color-scheme: dark){
+	body{
+		color:#e8eaed;
+		background-color:#202124;}
+        .splash p{color:#e8eaed;}
+    	.splashshort p{color:#e8eaed;}
+	.header div{background-color:#202124;}
+	.header nav{
+		background-color:#202124;
+		border-bottom: 1px solid #3c4043;}
+	.header a{color:#e8eaed;}
+	.header.dropdown{color:#e8eaed;}
+	.header.dropdown.content li{border-bottom: 1px solid #3c4043;}
+	.text.block{border-bottom: 1px solid #3c4043;}
+	.main.sidebar ul{border-bottom: 1px solid #3c4043;}
+	.main.sub_sidebar ul{border-bottom: 1px solid #3c4043;}
+	.main.head h1{color:#e8eaed;}
+	.main.sidebar a{color:#e8eaed;}
+	.main.sidebar.links a{color:#e8eaed;}
+	.main.sub_sidebar a{color:#e8eaed;}
+	.main.sub_sidebar.links a{color:#e8eaed;}
+	.main.content{color:#e8eaed;}
+	.footer{background-color:#3c4043;}
+	.footer.links a{color:#e8eaed;}
+	.footer.copyright p{color:#e8eaed;}
+	.surmain{
+		background-color:#202124;
+		color:#e8eaed;}
+
+
+}
 	
