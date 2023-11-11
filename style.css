@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -10,7 +9,8 @@
 body{
 	font-family: 'Roboto';
 	font-size: 18px;
-	margin: 0 0px;}
+	margin: 0 0px;
+	background-color:#eee;}
 
 span{
 	font-family: 'Times';}
@@ -621,7 +621,7 @@ figcaption{
 @media (prefers-color-scheme: dark){
 	body{
 		color:#bababa;
-		background-color:#202124;}
+		background-color:#3c4043;}
         .splash p{color:#bababa;}
     	.splashshort p{color:#bababa;}
 	.header div{background-color:#202124;}
