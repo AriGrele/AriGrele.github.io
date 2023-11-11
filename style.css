@@ -141,15 +141,15 @@ span{
 	text-align: center;
 	width: 100%;}
 
-.header.dropdown:hover .header.dropdown.content{
-  display: block;}
+.header.dropdown:hover .header.dropdown.content{display: block;}
 
 .main{
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 100px;
-	margin-right: 100px;
-	flex-direction: row;}
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: row;
+	width:1336px;}
 
 .holder{
 	margin:auto;
@@ -458,6 +458,12 @@ figcaption{
 
 .downloads{
 	display:flex;}
+
+@media screen and (max-width: 1350px){
+	.main{
+		margin-left:100px;
+		margin-right:100px;
+		width:auto;}}
 
 @media screen and (max-width: 1000px){
 	.header{
