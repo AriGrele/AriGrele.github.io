@@ -636,6 +636,7 @@ figcaption{
 		border-bottom: 1px solid #3c4043;}
 	.header a{color:#bababa;}
 	.header.dropdown{color:#bababa;}
+	.header.dropdown.content{box-shadow: 0px 8px 16px 0px black}
 	.header.dropdown.content li{border-bottom: 1px solid #3c4043;}
 	.text.block{border-bottom: 1px solid #3c4043;}
 	.main.sidebar ul{border-bottom: 1px solid #3c4043;}
@@ -651,8 +652,5 @@ figcaption{
 	.footer.copyright p{color:#bababa;}
 	.surmain{
 		background-color:#202124;
-		color:#bababa;}
-
-
-}
+		color:#bababa;}}
 	
