@@ -34,12 +34,7 @@ I built this entire website from scratch to learn how to use HTML and CSS. That'
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
 
-<script>
-			function dropfun(){
-  			  var menu = document.getElementById("dropdown");
-  			  if(menu.style.display === "block"){menu.style.display = "none";}
-			  else{menu.style.display = "block";}}
- 		  </script>
+
 
       <link rel   = "stylesheet" href = "style.css">
       <link rel   = "preload"  href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
@@ -61,7 +56,13 @@ I built this entire website from scratch to learn how to use HTML and CSS. That'
                   <li><a href = "/Software/Index">Software</a></li>
                </ul>
                <div class="header dropdown" style="margin-right:10px;">
-                  <a href="javascript:void(0);" onclick="dropfun()">Navigation <img src="Assets/menu.svg" alt="Ari Grele" itemprop="image" style="width: 25px; height:25px;margin:auto;padding-left:10px"></a>
+		  <script>
+			function dropfun(){
+  			  var menu = document.getElementById("dropdown");
+  			  if(menu.style.display === "block"){menu.style.display = "none";}
+			  else{menu.style.display = "block";}}
+ 		  </script>
+                  <a href="javascript:void(0);" onclick="dropfun()">Navigation <img src="Assets/menu.svg" alt="Navigation menu" itemprop="image" style="width: 25px; height:25px;margin:auto;padding-left:10px"></a>
                   <div class="header dropdown content" id="dropdown">
                      <ul>
                         <li><a href = "/">About</a></li>

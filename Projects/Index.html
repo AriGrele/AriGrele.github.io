@@ -41,9 +41,15 @@
                   <li><a href = "/Projects/Index">Projects</a></li>
                   <li><a href = "/Software/Index">Software</a></li>
                </ul>
-               <div class="header dropdown">
-                  <a>Navigation</a>
-                  <div class="header dropdown content">
+               <div class="header dropdown" style="margin-right:10px;">
+		  <script>
+			function dropfun(){
+  			  var menu = document.getElementById("dropdown");
+  			  if(menu.style.display === "block"){menu.style.display = "none";}
+			  else{menu.style.display = "block";}}
+ 		  </script>
+                  <a href="javascript:void(0);" onclick="dropfun()">Navigation <img src="../Assets/menu.svg" alt="Navigation menu" itemprop="image" style="width: 25px; height:25px;margin:auto;padding-left:10px"></a>
+                  <div class="header dropdown content" id="dropdown">
                      <ul>
                         <li><a href = "/">About</a></li>
                         <li><a href = "/Research/Index">Research</a></li>
