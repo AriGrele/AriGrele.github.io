@@ -201,7 +201,8 @@ span{
 	width: 300px;
 	margin-top: 20px;
  	z-index: 1;
-	overflow-y: hidden;}
+	overflow-y: hidden;
+	border-right: 1px solid #cbcbcb;}
 
 .main.sidebar ul{
 	margin-left: 90px;

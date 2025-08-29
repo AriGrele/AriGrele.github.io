@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <title>Annotator</title>
+      <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐝</text></svg>">
+      <meta name     = "author"         content = "Ari Grele">
+      <meta name     = "description"    content = "The personal site of Ari Grele, PhD candidate at the university of Nevada Reno">
+      <meta property = "og:description" content = "The personal site of Ari Grele, PhD candidate at the university of Nevada Reno">
+      <meta property = "og:type"        content = "website">
+      <meta property = "og:locale"      content = "en_US">
+      <meta property = "og:site_name"   content = "Ari Grele">
+      <meta property = "og:title"       content = "Ari Grele">
+      <meta property = "og:url"         content = "https://AriGrele.github.io/">
+      <link rel="canonical" href="https://AriGrele.github.io/">
+      <script type="application/ld+json">{
+         "@context": "https://schema.org",
+         "@type":    "Person",
+         "name":      null,
+         "url":      "https://AriGrele.github.io/"}
+      </script>
+      <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ari Grele Feed">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
+      <link rel   = "stylesheet" href = "../style.css">
+      <link rel   = "preload"  href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
+      <link rel   = "preload"  href = "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"   as = "style" onload = "this.onload=null; this.rel = 'stylesheet'">
+      <noscript>
+         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      </noscript>
+   </head>
+   <body>
+      <div class="header">
+         <div>
+            <nav>
+               <a class="header title" href="../About" style="width: 50px;">Ari Grele</a>
+               <ul>
+                  <li><a href = "/">About</a></li>
+                  <li><a href = "/Research/Index">Research</a></li>
+                  <li><a href = "/Projects/Index">Projects</a></li>
+                  <li><a href = "/Software/Index">Software</a></li>
+               </ul>
+               <div class="header dropdown" style="margin-right:10px;">
+		  <script>
+			function dropfun(){
+  			  var menu = document.getElementById("dropdown");
+  			  if(menu.style.display === "block"){menu.style.display = "none";}
+			  else{menu.style.display = "block";}}
+ 		  </script>
+                  <a href="javascript:void(0);" onclick="dropfun()">Navigation <img src="../Assets/menu.svg" alt="Navigation menu" itemprop="image" style="width: 25px; height:25px;margin:auto;padding-left:10px"></a>
+                  <div class="header dropdown content" id="dropdown">
+                     <ul>
+                        <li><a href = "/">About</a></li>
+                        <li><a href = "/Research/Index">Research</a></li>
+                        <li><a href = "/Projects/Index">Projects</a></li>
+                        <li><a href = "/Software/Index">Software</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </div>
+    <div class="surmain">
+      <div class="main">
+        <div class="main sidebar", style="margin-left:0px;margin-right:10px;">
+          <div>
+            <h1>BugCam-mini</h1>
+            <h2>Hardware</h2>
+          </div>
+          <div>
+            <ul>
+              <li>Materials</li>
+	      <li>Recommended tools</li>
+</ul><ul>
+	      <li>Constructing the case</li>
+	      <li>Mounting the camera</li>
+	      <li>Wiring the camera</li>
+	      <li>Optional wifi range extender</li>
+	    <ul>
+          </div>
+	  <div>
+            <h2>Software</h2>
+	  </div>
+	    <ul>
+	      <li>Wiring the camera for programming</li>
+	      <li>Programming the camera</li>
+	      <li>Focusing the camera</li>
+	    <ul>
+        </div>
+        <article class="main content" itemscope itemtype="https://schema.org/CreativeWork">
+          <div>
+            <section itemprop="text">
+<h1>Constructing the BugCam-mini<h1>
+<p></p>
+<h2><b>§1. Materials</b></h2>
+<p></p>
+<h2><b>§2. Recommended tools</b></h2>
+
+<ul><li>Hot glue gun</li>
+<li>Razor blade</li>
+<li>Soldering Iron</li>
+<li>Pliers</li></ul>
+<p></p>
+Note that programming the ESP32-CAM board will additionally require an FTDI USB to TTL Serial Converter.
+<p></p>
+<h2><b>§3. Constructing the case</b></h2>
+
+<p></p>
+Orient a bead case such that the lid opens to the right.
+Mount the battery holder to the case using epoxy. Note that hot glue will be sufficient in cool, dry environments (e.g. for interior use), but will fail under heat or high humidity. 
+
+<div style="margin:10px">
+<img src="../Assets/boardmanager.png" alt="" itemprop="image", style="width:100%;display:block">
+</div>
+              
+
+<p></p>
+Create a small hole, approximately 5mm in diameter, in the wall of the case on the same side as the hinges. We find that the most efficient way to do this this is by melting with the tip of a soldering iron or similar tool.
+<>
+<p></p>
+<h2><b>§4. Mounting the camera</b></h2>
+
+<p></p>
+Depending on the company the ESP32-CAM boards were purchased from, the camera may be packaged separately from the board. Ensure the camera is plugged fully into the board. Using superglue, fix the camera module to the SD card holder on the ESP32-CAM board. 
+<>
+<p></p>
+The lens focus on the ESP32-CAM is fixed using a small patch of glue. Cut this patch using a sharp blade (e.g. a razor or box cutter). 
+<>
+<p></p>
+Focus the camera manually by rotating the lens in its mounting. This may initially require a large amount of torque depending on how well the glue was cut. We recommend using pliers for the initial turn, but be extremely careful to avoid damaging to camera. The lens mounting can be broken if too much force is applied, and twisting may force the camera from the ribbon cable which, in our experience, cannot be reattached. 
+<>
+<p></p>
+For recommendations on setting the fixed camera focus, see section 9.
+If you are using an external antenna, we recommend attaching it before continuing. See section 6.
+<p></p>
+Cut an approximately 1 cm2 square of EVA foam and fix it to the front of the ESP32-CAM board on the side with the camera. Ensure that the camera itself is not obscured. We find that, due to the low weight of the camera, hot glue is sufficient for mounting the foam to both the camera and case.
+<>
+<p></p>
+Mount the foam to the interior of the case lid such that the camera faces outwards from the case. Note that the orientation of the board matches the orientation of the image it takes – orient the camera horizontally for landscape images and vertically for portrait images.  
+<>
+<p></p>
+<h2><b>§5. Wiring the camera</b></h2>
+
+<p></p>
+Cut and strip the ends of two jumper cables.
+<>
+<p></p>
+Solder the stripped ends to the battery wires.
+<>
+<p></p>
+Tape the soldered ends and thread the wires through the hole in the side of the case.
+<>
+<p></p>
+Seal the hole in the case with glue. We find hot glue provides a sufficient seal for situations where the camera is not exposed to heavy rains, but it may be necessary to use epoxy in wetter environments. 
+<>
+<p></p>
+Bend the contacts on the ESP32-CAM board for GPIO pins <>, <>, and <>, 90 degrees such that they face outwards from the board.
+<>
+<p></p>
+Mount the negative jumper wire from the battery to GPIO pin <>. Mounting the positive wire will turn the camera on immediately. 
+<>
+<p></p>
+Optionally, once the camera is plugged in and running, seal the case and batteries using waterproof tape to avoid water damage. In practice, we have not found this necessary unless the camera is expected to be running in heavy rains. 
+<>
+<p></p>
+<h2><b>§6. Optional wifi range extender</b></h2>
+
+<p></p>
+While the built-in antenna for the ESP32 wifi chip can typically carry data over approximately 30 meters, This range can be extended to over 100 m by attaching a larger omnidirectional antenna. Also note that, while this step can be completed after the camera is mounted in the case, it may be considerably easier to perform steps <> and <> before mounting the camera.
+<p></p>
+The wifi chip is connected to the built in antenna via a small resistor on the back of the ESP32-CAM board. Desolder this connection and resolder the resistor to the adjacent contact to allow attaching an external antenna. 
+<>
+<p></p>
+Attach the antenna pig-tail cable to the <> mount on the back of the board. This may take considerable force.
+<>
+<p></p>
+As in step <>, create a small hole in the wall of the case on the same side as the hinges. Ensure that this hole is large enough to accept the base of the antenna without the mounting nut.
+<>
+<p></p>
+Thread the pig-tail able through the hole and attach the antenna.
+<>
+<p></p>
+Mount the antenna through the hole using the mounting nut and glue in place.
+<>  
+<p></p>
+Programming the BugCam-mini
+<p></p>
+<h2><b>§7. Wiring the camera for programming</b></h2>
+
+<p></p>
+The ESP32-CAM can be operated under two modes - normal execution mode, and serial bootloader mode (See https://docs.espressif.com/projects/esptool/en/latest/esp32/advanced-topics/boot-mode-selection.html). To allow software to be uploaded to the camera, it must be set to bootloader mode. 
+<p></p>
+While the camera is unplugged, connect the GPIO0 pin to GND using a jumper wire. Note that some models may have pins in different orders than pictured. Always check the pin labels when wiring a new board. 
+<>
+<p></p>
+Plug the camera into FTID USB adapter by connecting pin TX to U0R and RX to U0T. 
+<>
+<p></p>
+Plug the ESP32 GND and 5V pins to the FTID GND and 5V pins in to power it. Note that if you are using an adapter which can be set to multiple voltages, it must be set to 5V. 
+<>
+<p></p>
+The camera software can now be modified.
+<p></p>
+<h2><b>§8. Programming the camera</b></h2>
+
+<p></p>
+Install the Arduino IDE (available here https://docs.arduino.cc/software/ide/#ide-v2). The ESP32-CAM requires an add-on to program via this IDE. To install, click the Boards Manager icon or navigate to Tools > Board > Boards > Boards Manager.
+
+<div style="margin:10px">
+<img src="../Assets/boardmanager.png" alt="" itemprop="image", style="width:100%;display:block">
+</div>
+     
+<p></p>
+Search for ESP32 and install esp32 by Espressif Systems version 3.X.X.
+
+<div style="margin:10px">
+<img src="../Assets/esspressif.png" alt="" itemprop="image", style="width:100%;display:block">
+</div>
+     
+
+<p></p>
+To program the board, navigate to Tools > Board > esp32 and select AI-Thinker ESP32-CAM. Note that some versions of the ESP32-CAM may have different pin layouts, which must either be selected directly in the Arduino IDE or manually edited in the software. 
+
+<div style="margin:10px">
+<img src="../Assets/thinker.png" alt="" itemprop="image", style="width:100%;display:block">
+</div>
+     
+
+<p></p>
+Go to Tools > Port and select the COM port the camera is connected to
+<>
+
+<p></p>
+To upload software from the Arduino IDE to the board, press the upload button in the IDE. When the IDE displays the text "Connecting", press the RST button on the ESP32-CAM to ensure the camera is in the right mode.
+<>
+<p></p>
+The AI-Thinker ESP32-CAM tools include an example script for a wifi camera and dashboard (See section 9 below). We recommend using this script to test camera functionality and to monitor the camera focus. 
+<p></p>
+A minimal script to take an image every minute while the camera is powered can be found here <>.
+<p></p>
+<h2><b>§9. Focusing the camera</b></h2>
+
+<p></p>
+The ESP32-CAM has a fixed focus lens which mush be physically turned to adjust the focal distance. We find that the best way to focus cameras in bulk is to determine the number of turns for the ideal focal distance on one camera by accessing the camera video stream over wifi, then apply that focal distance to all subsequent cameras. 
+<p></p>
+The Arduino IDE includes a ESP32-CAM wifi dashboard accessible via File > Examples > ESP32 > Camera > CameraWebServer.
+
+<div style="margin:10px">
+<img src="../Assets/example.png" alt="" itemprop="image", style="width:100%;display:block">
+</div>
+     
+<p></p>
+Following section 8, upload the dashboard software to the camera and remove the wire connecting the GPIO0 and GND pins to allow the camera to run normally. Press the RST button to begin operation. Use the Arduino IDE to check the serial monitor for data from the camera. Once the camera is on, it should transmit an IP address. Visiting this IP through any web browser should allow access to the video stream for focusing.
+<>
+<p></p>
+            </section>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <div class="footer links">
+          <ul>
+            <li><a href="https://scholar.google.com/citations?user=DX_8kKYAAAAJ&hl=en" rel="nofollow noopener noreferrer">
+              <i class="ai ai-google-scholar-square" aria-hidden="true"></i> Google Scholar</a></li>
+            <li><a href="https://orcid.org/0000-0002-0876-7682" rel="nofollow noopener noreferrer">
+              <i class="fab fa-orcid" aria-hidden="true"></i> ORCID</a></li>
+            <li><a href="https://www.researchgate.net/profile/Ari-Grele" rel="nofollow noopener noreferrer">
+              <i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> Research Gate</a></li>
+            <li><a href="https://github.com/AriGrele" rel="nofollow noopener noreferrer">
+              <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <div class="footer copyright">
+          <p>&copy; <span>2023-2025</span> Ari Grele.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
