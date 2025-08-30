@@ -90,6 +90,7 @@ span{
 	position: fixed;}
 
 .header ul{
+	line-height:1.5;
 	margin-left: auto;
 	display: flex;
 	justify-content: flex-end;
@@ -144,9 +145,10 @@ span{
 .header.dropdown:hover .header.dropdown.content{display: block;}
 
 .main{
+	line-height:1.5;
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: auto;
+	margin-left: 50px;
 	margin-right: auto;
 	flex-direction: row;
 	width:1336px;}
@@ -156,8 +158,9 @@ span{
 	padding-right:100px;
 	padding-left:100px;
 	display: flex;
-		flex-direction: column;
-	margin-bottom:10px;}
+	flex-direction: column;
+	margin-bottom:10px;
+	line-height:1.5;}
 
 .holder ul{
 	margin:auto;}
@@ -169,7 +172,8 @@ span{
 	text-align:center;}
 
 .text.block{
-	border-bottom: 1px solid #cbcbcb;}
+	border-bottom: 1px solid #cbcbcb;
+	line-height:1.5;}
 
 .body_text{
 	text-align: left;}
@@ -193,7 +197,7 @@ span{
 .main.sidebar{
 	margin-left:50px;
 	margin-right:50px;
-	height: min-content;
+	height: 85vh;
 	font-size: 16px;
 	position: sticky;
 	align-self: flex-start;
@@ -462,8 +466,8 @@ figcaption{
 
 @media screen and (max-width: 1350px){
 	.main{
-		margin-left:100px;
-		margin-right:100px;
+		margin-left:50px;
+		margin-right:50px;
 		width:auto;}}
 
 @media screen and (max-width: 1000px){
@@ -491,6 +495,7 @@ figcaption{
 		flex-direction: column;}
 
 	.main.sidebar{
+		height:min-content;
 		font-size: 14px;
 		position: relative;
 		width: 100%;
