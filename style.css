@@ -159,11 +159,12 @@ span{
 	padding-left:100px;
 	display: flex;
 	flex-direction: column;
-	margin-bottom:10px;
+	margin-bottom:auto;
 	line-height:1.5;
 	margin-left:auto;
 	margin-right:auto;
-	width:845px;}
+	width:845px;
+	border-bottom: 1px solid #3c4043;}
 
 .holder ul{
 	margin:auto;}
@@ -176,10 +177,9 @@ span{
 
 .text.block{
 	list-style-type: none;
-	border-bottom: 1px solid #cbcbcb;
+	border-bottom: 0px solid #cbcbcb;
 	line-height:1.5;
-	margin-left:auto;
-	margin-right:auto;
+	margin:auto;
 	width:845px;}
 
 .body_text{
@@ -326,6 +326,7 @@ span{
 .main.content{
 	flex: 1;
 	overflow-y: auto;
+	overflow-x: hidden;
 	height: 50%;
 	padding: 0 0px;
 	margin: 20px 0px;
@@ -375,18 +376,35 @@ figure{
 	width:400px;
 	float: right;}
 
-figcaption{
+.side_image{
+	visibility:hidden;
+	height: 0px;
+	margin-top:0px;
+	margin-bottom:0px;}
+
+.side_figure{
+	width:100%;
+	margin:auto;}
+
+.side_image figcaption{
 	margin-bottom:15px;}
 
 .side_image img{
 	width: 400px;
-	height: 400px;
 	border-radius: 50%;
 	overflow: hidden;
 	display: block;
     	margin-left:20px;
    	margin-right:20px;
 	margin-bottom:10px;}
+
+.side_figure img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+    	margin:auto;}
 
 .partial-l{
 	display:flex;
@@ -479,6 +497,24 @@ figcaption{
 .downloads{
 	display:flex;}
 
+@media screen and (max-width: 2200px){
+	.holder{
+		border-bottom: 0px solid #3c4043;}
+
+	.text.block{
+		border-bottom: 1px solid #3c4043;}
+
+	.side_figure{
+		visibility:hidden;
+		height:0px;
+		width:0px;
+		padding:0px;
+		margin:0px;}
+
+	.side_image{
+		visibility:visible;
+		height:auto;}}
+
 @media screen and (max-width: 1350px){
 	.main{
 		margin-left:50px;
@@ -527,7 +563,7 @@ figcaption{
 	.main.sidebar h1{
 		text-align:center;}
 	.main.sidebar li{
-		margin: 0 10px;
+		margin: 0 5px;
 		text-align: center;
 		border-bottom: 0px solid #cbcbcb;}	
 	.main.sidebar a{
@@ -606,7 +642,7 @@ figcaption{
 	.simplify{
 		visibility: hidden;
 		width: 0px;
-		margin: 0px 0px;}
+		margin: 0px;}
 	.main.sidebar.links li{
 		margin: 0 1px;}
 	figure{
@@ -667,7 +703,6 @@ figcaption{
 	.header.dropdown{color:#bababa;}
 	.header.dropdown.content{box-shadow: 0px 8px 16px 0px black}
 	.header.dropdown.content li{border-bottom: 1px solid #3c4043;}
-	.text.block{border-bottom: 1px solid #3c4043;}
 	.main.sidebar ul{border-bottom: 1px solid #3c4043;}
 	.main.sub_sidebar ul{border-bottom: 1px solid #3c4043;}
 	.main.head h1{color:#bababa;}
