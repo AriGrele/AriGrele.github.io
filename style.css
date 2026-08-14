@@ -162,14 +162,13 @@ h2{
 
 .holder{
 	margin:auto;
-	padding-right:100px;
-	padding-left:100px;
+	padding-right:5px;
+	padding-left:5px;
 	display: flex;
 	flex-direction: column;
-	margin-bottom:auto;
+	margin-top:0px;
+	margin-bottom:0px;
 	line-height:1.5;
-	margin-left:auto;
-	margin-right:auto;
 	width:845px;
 	border-bottom: 1px solid #3c4043;}
 
@@ -187,7 +186,7 @@ h2{
 	border-bottom: 0px solid #cbcbcb;
 	line-height:1.5;
 	margin:auto;
-	width:845px;}
+	text-align:left;}
 
 .body_text{
 	text-align: left;}
@@ -509,7 +508,7 @@ figure{
 .downloads{
 	display:flex;}
 
-@media screen and (max-width: 2200px){
+@media screen and (max-width: 220000px){
 	.holder{
 		border-bottom: 0px solid #3c4043;}
 
@@ -636,8 +635,8 @@ figure{
 		margin: 0 10px;
 		top: 0px;}
 	.holder{
-		padding-right:75px;
-		padding-left:75px;
+		padding-right:5px;
+		padding-left:5px;
 		width:auto;
 		margin-left:0px;}
 	.text.block{
@@ -666,12 +665,14 @@ figure{
 		margin: 0 1px;}
 	figure{
 		float:none;
-		margin:auto;}
+		margin:auto;
+		width:380px;}
 	.side_image img{
-		margin:auto;}
+		margin:auto;
+		width:380px;}
 	.holder{
-		padding-right:50px;
-		padding-left:50px;}
+		padding-right:0px;
+		padding-left:0px;}
 	.sub_image img{
 		width:300px;
 		height:300px;}}
@@ -699,8 +700,8 @@ figure{
 	.splashshort p{
 		font-size:40px;}
 	.holder{
-		padding-right:5px;
-		padding-left:5px;}}
+		padding-right:0px;
+		padding-left:0px;}}
 
 @media (prefers-color-scheme: dark){
 	body{
