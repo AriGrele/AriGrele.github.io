@@ -158,7 +158,8 @@ h2{
 	margin-left: auto;
 	margin-right: auto;
 	flex-direction: row;
-	width:1336px;}
+	width:1336px;
+	padding-top:50px;}
 
 .holder{
 	margin:auto;
@@ -362,7 +363,9 @@ h2{
 .surmain{
 	position: relative;
 	background-color: white;
-	padding-top: 60px;}
+	padding-top: 60px;
+	margin:auto;
+	min-height:80vh;}
 
 .avatar img{
 	width: 300px;
@@ -546,7 +549,8 @@ figure{
 		overflow: hidden;
 		margin: 0 50px;
 		font-size: 16px;
-		flex-direction: column;}
+		flex-direction: column;
+		padding-top:0px;}
 
 	.holder{
 		overflow: hidden;
